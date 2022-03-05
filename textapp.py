@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 from flask import request, render_template
 from textblob import TextBlob
-import joblib
+
 
 
 @app.route("/", methods=["GET", "POST"])
